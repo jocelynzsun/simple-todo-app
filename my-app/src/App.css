@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+body {
+  background-color: #282c34;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.app {
+  padding-top: 10rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 20vmin;
+  pointer-events: none;
+  padding-bottom: 4rem;
+}
+
+.todo-container {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.todo-form {
+  font-size: 2px;
+}
+
+.td-input {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  width: 400px;
+  font-size: 1.4rem;
+  margin: auto;
+  border: 0;
+  border-bottom: 2px solid #1D2026;
+  background: transparent;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.display-input {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  width: 400px;
+  font-size: 1.4rem;
+  margin: auto;
+  border: 0;
+  background: transparent;
+  color: #fff;
+  cursor: text;
+  font-family: 'Roboto', sans-serif;
+}
+
+.custom-button {
+  display: flex;
+  padding: 0.5rem 1rem;
+  border: 2px solid #e0e2e4;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  margin: 10px 0px;
+  outline: none;
+  background-color: #282c34;
+  color: #8e8e8e;
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.custom-button:hover {
+  background-color: #e0e2e4;
+}
+
+.todo {
+  margin: 3.5rem 0;
+}
+
+.todo-is-completed .checkbox {
+  color: black;
+  background: white;
+}
+
+.todo-is-completed input {
+  text-decoration: line-through;
+}
+
+.checkbox {
+  display: inline;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin: -25px;
+  cursor: pointer;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color .2s ease-in-out;
+  border: 1px solid white;
+}
+
+.checkbox:hover {
+  border: 1px solid white;
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.checkbox-checked {
+  color: black;
+  background: white;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  width: 500px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
