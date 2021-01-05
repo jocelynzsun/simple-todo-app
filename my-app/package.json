@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ucb-info-frontend-webarch.github.io/assignment-2-jocelynzsun/",
+  "homepage": "https://jocelynzsun.github.io/simple-todo-app/",
   "dependencies": {
     "-": "0.0.1",
     "@testing-library/jest-dom": "^4.2.4",
