@@ -2,6 +2,9 @@
 
 This is a coding assignment for Info 253A (Front-End Web Architecture), the assignment asked for a simple todo application which supports add/edit/complete a task and tags associated with the task.
 
+## Demo
+Click [here](https://jocelynzsun.github.io/simple-todo-app/) to see a live demo of this project.
+
 ## Language and library
 
 This application is written in javascript using React.js, and supports storage in localstorage in [todo.txt format](https://github.com/todotxt/todo.txt). 
