@@ -1,6 +1,6 @@
 # Simple Todo Application
 
-This is a coding assignment for Info 253A (Front-End Web Architecture), the assignment asked for a simple todo application which supports add/edit/complete a task and tags asociated with the task.
+This is a coding assignment for Info 253A (Front-End Web Architecture), the assignment asked for a simple todo application which supports add/edit/complete a task and tags associated with the task.
 
 ## Language and library
 
